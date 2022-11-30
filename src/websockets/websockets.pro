@@ -1,4 +1,4 @@
-TARGET = QtWebSockets
+TARGET = QtWebSocketsMod
 
 QT = core-private network
 

@@ -31,7 +31,7 @@
 #include <QtCore/QByteArray>
 #include <QtCore/QtEndian>
 
-#include "QtWebSockets/qwebsocketcorsauthenticator.h"
+#include "QtWebSocketsMod/qwebsocketcorsauthenticator.h"
 
 QT_USE_NAMESPACE
 

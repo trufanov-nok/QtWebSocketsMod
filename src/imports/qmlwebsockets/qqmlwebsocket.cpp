@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:LGPL$
 ** Commercial License Usage
@@ -42,7 +42,7 @@
     \instantiates QQmlWebSocket
     \since 5.3
 
-    \inqmlmodule QtWebSockets
+    \inqmlmodule QtWebSocketsMod
     \ingroup websockets-qml
     \brief QML interface to QWebSocket.
 
@@ -102,7 +102,7 @@
   This signal is emitted when the status of the WebSocket changes.
   The \a status argument provides the current status.
 
-  \sa {QtWebSockets::}{WebSocket::status}
+  \sa {QtWebSocketsMod::}{WebSocket::status}
   */
 
 /*!
@@ -117,7 +117,7 @@
   */
 
 #include "qqmlwebsocket.h"
-#include <QtWebSockets/QWebSocket>
+#include <QtWebSocketsMod/QWebSocket>
 
 QT_BEGIN_NAMESPACE
 

@@ -39,10 +39,10 @@
 #include <QtNetwork/qsslkey.h>
 #include <QtNetwork/qsslsocket.h>
 #endif
-#include <QtWebSockets/QWebSocketServer>
-#include <QtWebSockets/QWebSocket>
-#include <QtWebSockets/QWebSocketCorsAuthenticator>
-#include <QtWebSockets/qwebsocketprotocol.h>
+#include <QtWebSocketsMod/QWebSocketServer>
+#include <QtWebSocketsMod/QWebSocket>
+#include <QtWebSocketsMod/QWebSocketCorsAuthenticator>
+#include <QtWebSocketsMod/qwebsocketprotocol.h>
 
 QT_USE_NAMESPACE
 

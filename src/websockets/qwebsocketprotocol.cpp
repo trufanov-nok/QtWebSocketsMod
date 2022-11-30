@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:LGPL$
 ** Commercial License Usage
@@ -46,7 +46,7 @@ QT_BEGIN_NAMESPACE
 
 /*!
   \namespace QWebSocketProtocol
-  \inmodule QtWebSockets
+  \inmodule QtWebSocketsMod
   \brief Contains constants related to the WebSocket standard.
   \since 5.3
 */
@@ -54,7 +54,7 @@ QT_BEGIN_NAMESPACE
 /*!
     \enum QWebSocketProtocol::CloseCode
 
-    \inmodule QtWebSockets
+    \inmodule QtWebSocketsMod
 
     The close codes supported by WebSockets V13
 
@@ -77,7 +77,7 @@ QT_BEGIN_NAMESPACE
 /*!
     \enum QWebSocketProtocol::Version
 
-    \inmodule QtWebSockets
+    \inmodule QtWebSocketsMod
 
     \brief The different defined versions of the WebSocket protocol.
 
@@ -88,41 +88,41 @@ QT_BEGIN_NAMESPACE
     \value Version0         \l{hixie76} and \l{hybi-00}.
                             Works with key1, key2 and a key in the payload.
                             Attribute: Sec-WebSocket-Draft value 0.
-                            Not supported by QtWebSockets.
+                            Not supported by QtWebSocketsMod.
     \value Version4         \l{hybi-04}.
                             Changed handshake: key1, key2, key3
                             ==> Sec-WebSocket-Key, Sec-WebSocket-Nonce, Sec-WebSocket-Accept
                             Sec-WebSocket-Draft renamed to Sec-WebSocket-Version
                             Sec-WebSocket-Version = 4.
-                            Not supported by QtWebSockets.
+                            Not supported by QtWebSocketsMod.
     \value Version5         \l{hybi-05}.
                             Sec-WebSocket-Version = 5
                             Removed Sec-WebSocket-Nonce
                             Added Sec-WebSocket-Accept.
-                            Not supported by QtWebSockets.
+                            Not supported by QtWebSocketsMod.
     \value Version6         Sec-WebSocket-Version = 6.
-                            Not supported by QtWebSockets.
+                            Not supported by QtWebSocketsMod.
     \value Version7         \l{hybi-07}.
                             Sec-WebSocket-Version = 7.
-                            Not supported by QtWebSockets.
+                            Not supported by QtWebSocketsMod.
     \value Version8         hybi-8, hybi-9, hybi-10, hybi-11 and hybi-12.
                             Status codes 1005 and 1006 are added and all codes are now unsigned
                             Internal error results in 1006.
-                            Not supported by QtWebSockets.
+                            Not supported by QtWebSocketsMod.
     \value Version13        hybi-13, hybi14, hybi-15, hybi-16, hybi-17 and \l{RFC 6455}.
                             Sec-WebSocket-Version = 13
                             Status code 1004 is now reserved
                             Added 1008, 1009 and 1010
                             Must support TLS
                             Clarify multiple version support.
-                            Supported by QtWebSockets.
-    \value VersionLatest    Refers to the latest known version to QtWebSockets.
+                            Supported by QtWebSocketsMod.
+    \value VersionLatest    Refers to the latest known version to QtWebSocketsMod.
 */
 
 /*!
     \enum QWebSocketProtocol::OpCode
 
-    \inmodule QtWebSockets
+    \inmodule QtWebSocketsMod
 
     The frame opcodes as defined by the WebSockets standard
 

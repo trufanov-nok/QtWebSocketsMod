@@ -25,7 +25,7 @@
 **
 ****************************************************************************/
 /*!
-    \module QtWebSockets
+    \module QtWebSocketsMod
     \title Qt WebSockets C++ Classes
     \ingroup modules
     \qtvariable websockets
@@ -36,7 +36,7 @@
     statement:
 
     \code
-    #include <QtWebSockets/QtWebSockets>
+    #include <QtWebSocketsMod/QtWebSocketsMod>
     \endcode
 
     To link against the module, add this line to your \l qmake \c
@@ -48,7 +48,7 @@
 */
 
 /*!
-    \qmlmodule QtWebSockets 1.\QtMinorVersion
+    \qmlmodule QtWebSocketsMod 1.\QtMinorVersion
     \title Qt WebSockets QML Types
     \ingroup qmlmodules
     \brief Provides QML types for WebSocket-based communication.
@@ -56,7 +56,7 @@
 
     The QML types are accessed by using:
     \qml \QtMinorVersion
-    import QtWebSockets 1.\1
+    import QtWebSocketsMod 1.\1
     \endqml
 
     \note Prior to Qt 5.5, the import statement was \c{import Qt.WebSockets 1.0}

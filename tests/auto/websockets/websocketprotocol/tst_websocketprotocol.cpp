@@ -31,7 +31,7 @@
 
 #include <QDebug>
 
-#include "QtWebSockets/qwebsocketprotocol.h"
+#include "QtWebSocketsMod/qwebsocketprotocol.h"
 #include "private/qwebsocketprotocol_p.h"
 
 QT_USE_NAMESPACE

@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:BSD$
 ** Commercial License Usage
@@ -48,7 +48,7 @@
 **
 ****************************************************************************/
 import QtQuick 2.0
-import QtWebSockets 1.0
+import QtWebSocketsMod 1.0
 
 Rectangle {
     width: 360

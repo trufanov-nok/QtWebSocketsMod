@@ -1,5 +1,5 @@
 ### Introduction
-`QtWebSockets` is a pure Qt implementation of WebSockets - both client and server.
+`QtWebSocketsMod` is a pure Qt implementation of WebSockets - both client and server.
 It is implemented as a Qt add-on module, that can easily be embedded into existing Qt projects. It has no other dependencies than Qt.
 
 ### Features
@@ -21,14 +21,14 @@ Go into the source directory and execute:
     make install
 
 
-The last command will install `QtWebSockets` as a Qt module.
+The last command will install `QtWebSocketsMod` as a Qt module.
 
 To use, add `websockets` to the QT variable.
 
 `QT += websockets`
 
 ### Compliance
-`QtWebSockets` is compliant with [RFC6455](http://datatracker.ietf.org/doc/rfc6455/?include_text=1) and has been tested with the [Autobahn Testsuite](http://autobahn.ws/testsuite).
+`QtWebSocketsMod` is compliant with [RFC6455](http://datatracker.ietf.org/doc/rfc6455/?include_text=1) and has been tested with the [Autobahn Testsuite](http://autobahn.ws/testsuite).
 
 ### Missing Features
 * Extensions and sub-protocols

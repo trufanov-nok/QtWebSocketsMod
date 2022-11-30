@@ -27,7 +27,7 @@
 ****************************************************************************/
 
 import QtQuick 2.5
-import QtWebSockets 1.1
+import QtWebSocketsMod 1.1
 import QtTest 1.1
 
 Rectangle {

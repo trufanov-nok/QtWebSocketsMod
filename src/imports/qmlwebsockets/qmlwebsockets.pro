@@ -1,6 +1,6 @@
 QT = websockets qml-private core-private
 
-TARGETPATH = QtWebSockets
+TARGETPATH = QtWebSocketsMod
 
 HEADERS +=  qmlwebsockets_plugin.h \
             qqmlwebsocket.h \

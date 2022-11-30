@@ -33,7 +33,7 @@
 
 #include "private/qwebsockethandshakerequest_p.h"
 #include "private/qwebsocketprotocol_p.h"
-#include "QtWebSockets/qwebsocketprotocol.h"
+#include "QtWebSocketsMod/qwebsocketprotocol.h"
 
 QT_USE_NAMESPACE
 

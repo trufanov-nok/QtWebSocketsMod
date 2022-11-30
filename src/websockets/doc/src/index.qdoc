@@ -46,13 +46,13 @@
     To include the definitions of the module's classes, use the following directive:
 
     \code
-    #include <QtWebSockets/QtWebSockets>
+    #include <QtWebSocketsMod/QtWebSocketsMod>
     \endcode
 
     To  import the QML types into your application, use the following import statement in your .qml file:
 
     \qml \QtMinorVersion
-    import QtWebSockets 1.\1
+    import QtWebSocketsMod 1.\1
     \endqml
 
     To link against the module, add this line to your qmake .pro file:

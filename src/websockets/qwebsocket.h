@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:LGPL$
 ** Commercial License Usage
@@ -50,8 +50,8 @@
 #include <QtNetwork/QSslError>
 #include <QtNetwork/QSslConfiguration>
 #endif
-#include "QtWebSockets/qwebsockets_global.h"
-#include "QtWebSockets/qwebsocketprotocol.h"
+#include "QtWebSocketsMod/qwebsockets_global.h"
+#include "QtWebSocketsMod/qwebsocketprotocol.h"
 
 QT_BEGIN_NAMESPACE
 

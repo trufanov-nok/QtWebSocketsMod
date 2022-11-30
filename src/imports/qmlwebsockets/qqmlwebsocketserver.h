@@ -42,7 +42,7 @@
 
 #include <QUrl>
 #include <QQmlParserStatus>
-#include <QtWebSockets/QWebSocketServer>
+#include <QtWebSocketsMod/QWebSocketServer>
 
 QT_BEGIN_NAMESPACE
 

@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:BSD$
 ** Commercial License Usage
@@ -51,7 +51,7 @@
 #define SSLECHOCLIENT_H
 
 #include <QtCore/QObject>
-#include <QtWebSockets/QWebSocket>
+#include <QtWebSocketsMod/QWebSocket>
 #include <QtNetwork/QSslError>
 #include <QtCore/QList>
 #include <QtCore/QString>

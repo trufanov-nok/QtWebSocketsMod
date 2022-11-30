@@ -1,5 +1,5 @@
 %modules = (
-    "QtWebSockets" => "$basedir/src/websockets",
+    "QtWebSocketsMod" => "$basedir/src/websockets",
 );
 
 %moduleheaders = (

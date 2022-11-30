@@ -27,9 +27,9 @@
 ****************************************************************************/
 #include <QString>
 #include <QtTest>
-#include <QtWebSockets/QWebSocket>
-#include <QtWebSockets/QWebSocketServer>
-#include <QtWebSockets/qwebsocketprotocol.h>
+#include <QtWebSocketsMod/QWebSocket>
+#include <QtWebSocketsMod/QWebSocketServer>
+#include <QtWebSocketsMod/qwebsocketprotocol.h>
 
 QT_USE_NAMESPACE
 

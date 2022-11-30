@@ -1,4 +1,4 @@
-module QtWebSockets
+module QtWebSocketsMod
 plugin declarative_qmlwebsockets
-classname QtWebSocketsDeclarativeModule
+classname QtWebSocketsModDeclarativeModule
 typeinfo plugins.qmltypes

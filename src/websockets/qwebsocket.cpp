@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:LGPL$
 ** Commercial License Usage
@@ -40,7 +40,7 @@
 /*!
     \class QWebSocket
 
-    \inmodule QtWebSockets
+    \inmodule QtWebSocketsMod
     \since 5.3
     \brief Implements a TCP socket that talks the WebSocket protocol.
 

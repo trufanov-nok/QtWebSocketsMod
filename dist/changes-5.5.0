@@ -20,11 +20,11 @@ information about a particular change.
 ****************************************************************************
 
  - The import statement has changed from "import Qt.WebSockets 1.0" to
-   "import QtWebSockets 1.0". The old statement is still supported, but it
+   "import QtWebSocketsMod 1.0". The old statement is still supported, but it
    cannot be mixed with the new statement within the same project.
 
 ****************************************************************************
-*                          QtWebSockets                                    *
+*                          QtWebSocketsMod                                    *
 ****************************************************************************
 
  - QWebSocket:

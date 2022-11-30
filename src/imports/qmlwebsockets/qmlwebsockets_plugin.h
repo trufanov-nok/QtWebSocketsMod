@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:LGPL$
 ** Commercial License Usage
@@ -44,13 +44,13 @@
 
 QT_BEGIN_NAMESPACE
 
-class QtWebSocketsDeclarativeModule : public QQmlExtensionPlugin
+class QtWebSocketsModDeclarativeModule : public QQmlExtensionPlugin
 {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID QQmlExtensionInterface_iid)
 
 public:
-    QtWebSocketsDeclarativeModule(QObject *parent = 0) : QQmlExtensionPlugin(parent) { }
+    QtWebSocketsModDeclarativeModule(QObject *parent = 0) : QQmlExtensionPlugin(parent) { }
     void registerTypes(const char *uri);
 };
 

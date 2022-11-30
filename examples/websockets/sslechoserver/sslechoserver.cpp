@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:BSD$
 ** Commercial License Usage
@@ -48,8 +48,8 @@
 **
 ****************************************************************************/
 #include "sslechoserver.h"
-#include "QtWebSockets/QWebSocketServer"
-#include "QtWebSockets/QWebSocket"
+#include "QtWebSocketsMod/QWebSocketServer"
+#include "QtWebSocketsMod/QWebSocket"
 #include <QtCore/QDebug>
 #include <QtCore/QFile>
 #include <QtNetwork/QSslCertificate>

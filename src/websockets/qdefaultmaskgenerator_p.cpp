@@ -3,7 +3,7 @@
 ** Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.
 ** Contact: https://www.qt.io/licensing/
 **
-** This file is part of the QtWebSockets module of the Qt Toolkit.
+** This file is part of the QtWebSocketsMod module of the Qt Toolkit.
 **
 ** $QT_BEGIN_LICENSE:LGPL$
 ** Commercial License Usage
@@ -39,9 +39,9 @@
 /*!
     \class QDefaultMaskGenerator
 
-    \inmodule QtWebSockets
+    \inmodule QtWebSocketsMod
 
-    \brief The QDefaultMaskGenerator class provides the default mask generator for QtWebSockets.
+    \brief The QDefaultMaskGenerator class provides the default mask generator for QtWebSocketsMod.
 
     The WebSockets specification as outlined in \l {RFC 6455}
     requires that all communication from client to server must be masked. This is to prevent

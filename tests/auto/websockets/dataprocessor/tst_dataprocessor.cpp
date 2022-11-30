@@ -34,7 +34,7 @@
 
 #include "private/qwebsocketdataprocessor_p.h"
 #include "private/qwebsocketprotocol_p.h"
-#include "QtWebSockets/qwebsocketprotocol.h"
+#include "QtWebSocketsMod/qwebsocketprotocol.h"
 
 const quint8 FIN = 0x80;
 const quint8 RSV1 = 0x40;
