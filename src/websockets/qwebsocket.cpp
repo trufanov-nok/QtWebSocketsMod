@@ -902,4 +902,11 @@ quint64 QWebSocket::maxOutgoingFrameSize()
     return QWebSocketPrivate::maxOutgoingFrameSize();
 }
 
+
+QList<QSslCertificate> QWebSocket::peerCertificateChain() const
+{
+    Q_D(const QWebSocket);
+    return d->peerCertificateChain();
+}
+
 QT_END_NAMESPACE

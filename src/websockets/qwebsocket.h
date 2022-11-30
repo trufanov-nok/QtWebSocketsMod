@@ -134,6 +134,7 @@ public Q_SLOTS:
     void ping(const QByteArray &payload = QByteArray());
 #ifndef QT_NO_SSL
     void ignoreSslErrors();
+    QList<QSslCertificate> peerCertificateChain() const;
 #endif
 
 Q_SIGNALS:

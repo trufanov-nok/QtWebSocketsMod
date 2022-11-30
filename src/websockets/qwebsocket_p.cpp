@@ -1542,4 +1542,15 @@ bool QWebSocketPrivate::isValid() const
 }
 #endif
 
+QList<QSslCertificate> QWebSocketPrivate::peerCertificateChain() const
+{
+#ifndef QT_NO_SSL
+        const QSslSocket * const sslSocket = qobject_cast<const QSslSocket *>(m_pSocket);
+        if (sslSocket) {
+            return sslSocket->peerCertificateChain();
+        }
+#endif
+        return QList<QSslCertificate>();
+}
+
 QT_END_NAMESPACE

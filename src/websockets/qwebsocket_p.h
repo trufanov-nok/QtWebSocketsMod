@@ -187,6 +187,7 @@ public:
     void setOutgoingFrameSize(quint64 outgoingFrameSize);
     quint64 outgoingFrameSize() const;
     static quint64 maxOutgoingFrameSize();
+    QList<QSslCertificate> peerCertificateChain() const;
 
 private:
     QWebSocketPrivate(QTcpSocket *pTcpSocket, QWebSocketProtocol::Version version);
