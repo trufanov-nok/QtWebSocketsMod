@@ -74,7 +74,7 @@ SslEchoServer::SslEchoServer(quint16 port, QObject *parent) :
     QSslKey sslKey(&keyFile, QSsl::Rsa, QSsl::Pem);
     certFile.close();
     keyFile.close();
-    sslConfiguration.setPeerVerifyMode(QSslSocket::VerifyNone);
+    sslConfiguration.setPeerVerifyMode(QSslSocket::AutoVerifyPeer);
     sslConfiguration.setLocalCertificate(certificate);
     sslConfiguration.setPrivateKey(sslKey);
     m_pWebSocketServer->setSslConfiguration(sslConfiguration);
@@ -102,6 +102,12 @@ void SslEchoServer::onNewConnection()
     QWebSocket *pSocket = m_pWebSocketServer->nextPendingConnection();
 
     qDebug() << "Client connected:" << pSocket->peerName() << pSocket->origin();
+
+    const QList<QSslCertificate> certs = pSocket->peerCertificateChain();
+    qDebug() << "Peer certificate Chain:";
+    for(const QSslCertificate& cert: certs) {
+        qDebug() << cert.toText() << "\n";
+    }
 
     connect(pSocket, &QWebSocket::textMessageReceived, this, &SslEchoServer::processTextMessage);
     connect(pSocket, &QWebSocket::binaryMessageReceived,
