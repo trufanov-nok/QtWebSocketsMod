@@ -909,4 +909,10 @@ QList<QSslCertificate> QWebSocket::peerCertificateChain() const
     return d->peerCertificateChain();
 }
 
+const QSslSocket* QWebSocket::sslSocket() const
+{
+    Q_D(const QWebSocket);
+    return d->sslSocket();
+}
+
 QT_END_NAMESPACE

@@ -135,6 +135,7 @@ public Q_SLOTS:
 #ifndef QT_NO_SSL
     void ignoreSslErrors();
     QList<QSslCertificate> peerCertificateChain() const;
+    const QSslSocket* sslSocket() const;
 #endif
 
 Q_SIGNALS:

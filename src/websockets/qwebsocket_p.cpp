@@ -1553,4 +1553,9 @@ QList<QSslCertificate> QWebSocketPrivate::peerCertificateChain() const
         return QList<QSslCertificate>();
 }
 
+const QSslSocket* QWebSocketPrivate::sslSocket() const
+{
+    return qobject_cast<const QSslSocket *>(m_pSocket);
+}
+
 QT_END_NAMESPACE

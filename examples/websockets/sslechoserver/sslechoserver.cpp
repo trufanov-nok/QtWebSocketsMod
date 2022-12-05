@@ -102,6 +102,9 @@ void SslEchoServer::onNewConnection()
     QWebSocket *pSocket = m_pWebSocketServer->nextPendingConnection();
 
     qDebug() << "Client connected:" << pSocket->peerName() << pSocket->origin();
+    if (pSocket->sslSocket()) {
+        qDebug() << "SSL Socket descriptor:" << pSocket->sslSocket()->socketDescriptor();
+    }
 
     const QList<QSslCertificate> certs = pSocket->peerCertificateChain();
     qDebug() << "Peer certificate Chain:";
