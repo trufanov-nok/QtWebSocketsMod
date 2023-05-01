@@ -1,0 +1,12 @@
+install(DIRECTORY ../lib/ DESTINATION lib/x86_64-linux-gnu)
+install(DIRECTORY ../include/ DESTINATION include/x86_64-linux-gnu/qt5)
+
+set(CPACK_GENERATOR "DEB")
+set(CPACK_PACKAGE_NAME libqt5websockets5mod-dev)
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Qt 5 Web Sockets module MOD")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY ${CPACK_PACKAGE_NAME})
+set(CPACK_VERBATIM_VARIABLES ON)
+set(CPACK_PACKAGING_INSTALL_PREFIX "/usr")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Alexander Trufanov <trufanovan@gmail.com>")
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt5network5 (>= 5.6)")
+include(CPack)
